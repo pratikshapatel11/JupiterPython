@@ -1,0 +1,57 @@
+Statistics in Python
+
+Statistics is used to analyze data, find patterns, and summarize information.
+
+Python provides:
+
+Built-in statistics module
+
+NumPy
+
+Pandas (for real datasets)
+
+1️⃣ Statistics using statistics module (Basic & Easy)
+import statistics as st
+
+data = [10, 20, 30, 40, 50]
+
+✅ Mean (Average)
+print(st.mean(data))
+
+✅ Median (Middle value)
+print(st.median(data))
+
+✅ Mode (Most frequent value)
+print(st.mode(data))
+
+✅ Variance
+print(st.variance(data))
+
+✅ Standard Deviation
+print(st.stdev(data))
+
+2️⃣ Statistics using NumPy (Fast & Popular)
+import numpy as np
+
+data = np.array([10, 20, 30, 40, 50])
+
+📌 Mean
+np.mean(data)
+
+📌 Median
+np.median(data)
+
+📌 Standard Deviation
+np.std(data)
+
+📌 Variance
+np.var(data)
+
+📌 Min & Max
+np.min(data)
+np.max(data)
+
+3️⃣ Statistics using Pandas (Real Data Analysis)
+import pandas as pd
+
+data = pd.Series([10, 20, 30, 40, 50])
